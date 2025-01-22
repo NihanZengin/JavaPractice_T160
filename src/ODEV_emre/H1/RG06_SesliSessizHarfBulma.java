@@ -1,5 +1,7 @@
 package ODEV_emre.H1;
 
+import java.util.Scanner;
+
 public class RG06_SesliSessizHarfBulma {
     public static void main(String[] args) {
         /*6----
@@ -28,6 +30,34 @@ public class RG06_SesliSessizHarfBulma {
     Yanlis karakter girdiniz!
 
     */
+
+
+        Scanner scanner= new Scanner(System.in);
+        System.out.print("Lutfen bir harf giriniz: ");
+
+     //  String harf= scanner.next().toLowerCase();
+        char harf=scanner.next().charAt(0);
+
+
+
+        if(harf>='a'&& harf<='z') {
+            switch (harf) {
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    System.out.println(harf+" harfi sesli harftir");
+                    break;
+                default:
+                    System.out.println(harf+" harfi sessiz harftir");
+                    break;
+
+            }
+        }
+        else {
+            System.out.println("Yanlis karakter girdiniz!!!");
+        }
 
 
     }

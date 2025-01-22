@@ -1,4 +1,4 @@
-package ODEV_emre;
+package ODEV_emre.H1;
 
 public class RG10_KelimeBulma {
     public static void main(String[] args) {
