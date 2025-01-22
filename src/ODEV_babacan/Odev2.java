@@ -1,4 +1,4 @@
-package ODEV;
+package ODEV_babacan;
 
 import java.util.Scanner;
 

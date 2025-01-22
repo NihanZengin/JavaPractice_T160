@@ -1,4 +1,4 @@
-package ODEV;
+package ODEV_babacan;
 
 public class Odev1 {
     public static void main(String[] args) {
