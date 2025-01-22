@@ -1,4 +1,4 @@
-package ODEV_emre;
+package ODEV_emre.H1;
 
 public class RG02_1den20yeKadarYazdirma {
     public static void main(String[] args) {
@@ -16,5 +16,6 @@ public class RG02_1den20yeKadarYazdirma {
     19
     20
     */
+
     }
 }

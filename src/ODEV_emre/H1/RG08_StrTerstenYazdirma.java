@@ -1,4 +1,4 @@
-package ODEV_emre;
+package ODEV_emre.H1;
 
 public class RG08_StrTerstenYazdirma {
     public static void main(String[] args) {

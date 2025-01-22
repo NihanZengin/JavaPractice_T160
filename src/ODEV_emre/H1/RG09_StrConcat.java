@@ -1,4 +1,4 @@
-package ODEV_emre;
+package ODEV_emre.H1;
 
 public class RG09_StrConcat {
     public static void main(String[] args) {
