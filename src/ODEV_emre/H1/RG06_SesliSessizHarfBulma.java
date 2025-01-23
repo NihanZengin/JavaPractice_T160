@@ -59,6 +59,9 @@ public class RG06_SesliSessizHarfBulma {
             System.out.println("Yanlis karakter girdiniz!!!");
         }
 
+        //we yazdigimda yani kullanici bir harften fazla yazdiginda  uyari vermeyi yapamadim.
+        // charAt(0) tek harfe donostoryor
+
 
     }
 }

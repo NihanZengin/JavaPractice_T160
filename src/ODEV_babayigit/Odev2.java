@@ -28,14 +28,14 @@ public class Odev2 {
         System.out.print("Lutfen Yasinizi giriniz...");
         int yas=scan.nextInt();
 
-        //  mail adresinizi giriniz der demez sifre giriniz diyor ve mail girmeme izin vermiyor
-        //Lutfen Mail Adresi giriniz...Lutfen Şifre giriniz...
-        // nextInt() metodu, sayısal bir giriş aldığında yeni bir satıra geçmez;
-        // bu yüzden bir sonraki nextLine() çağrısında,
-        // önceki satırdaki yeni satır karakterini (\n) okur ve hemen çalışır.
-        //
-        //Bu durumu çözmek için nextInt()'ten sonra bir scan.nextLine() kullanarak
-        // boş bir satır okuyarak tamponu temizlememiz gerekmektedir.
+        /*  mail adresinizi giriniz der demez sifre giriniz diyor ve mail girmeme izin vermiyor
+         Lutfen Mail Adresi giriniz...Lutfen Şifre giriniz...
+         nextInt() metodu, sayısal bir giriş aldığında yeni bir satıra geçmez;
+         bu yüzden bir sonraki nextLine() çağrısında,
+         önceki satırdaki yeni satır karakterini (\n) okur ve hemen çalışır.
+
+         Bu durumu çözmek için nextInt()'ten sonra bir scan.nextLine() kullanarak
+         boş bir satır okuyarak tamponu temizlememiz gerekmektedir.*/
 
         scan.nextLine(); // Sorunu cozmek icin
 

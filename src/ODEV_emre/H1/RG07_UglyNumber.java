@@ -1,5 +1,7 @@
 package ODEV_emre.H1;
 
+import java.util.Scanner;
+
 public class RG07_UglyNumber {
     public static void main(String[] args) {
         /*7-----
@@ -24,5 +26,16 @@ public class RG07_UglyNumber {
     ugly number
 
     */
+
+        //sayi%2==0 || sayi%3==0 || sayi%5==0
+
+
+        Scanner scanner= new Scanner(System.in);
+        System.out.print("Sayinin ugly nummer oldugunu anlamak icin lutfen bir sayi giriniz:  ");
+
+        int sayi=scanner.nextInt();
+
+        System.out.println(sayi%2==0 || sayi%3==0 || sayi%5==0 || sayi==1 ? "ugly nummer" : "ugly nummer degil");
+
     }
 }

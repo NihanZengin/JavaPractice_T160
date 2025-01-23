@@ -1,5 +1,7 @@
 package ODEV_emre.H1;
 
+import java.util.Scanner;
+
 public class RG10_KelimeBulma {
     public static void main(String[] args) {
         /*10-----
@@ -18,6 +20,15 @@ public class RG10_KelimeBulma {
     Beklenen Çıktı:False
 
     */
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Lutfen String ifadeler giriniz.");
+        String cumle= scanner.nextLine();
+
+        String arananString="is";
+
+        System.out.println(cumle.contains(arananString) ? true : false );
+
 
     }
 }
