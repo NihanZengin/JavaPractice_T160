@@ -29,5 +29,7 @@ public class P03_kullanicidanVeriAlma {
          Buna iliskin makaleyi oku*/
 
 
+
+
     }
 }
