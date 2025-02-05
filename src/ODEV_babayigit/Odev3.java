@@ -11,4 +11,7 @@ public class Odev3 {
 //        ipucu: Double.parseDouble() methodunu kullanabilirsiniz.
 
     }
+
+
+
 }
