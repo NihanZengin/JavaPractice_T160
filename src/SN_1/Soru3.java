@@ -16,9 +16,9 @@ public class Soru3 {
 
         int toplam=0;
         int birlerBasamagi=0;
-        sayi=sayi+" ";
+       // sayi=sayi+" ";
 
-        for (int i=1;i<sayi.)
+       // for (int i=1;i<sayi.)
 
 
     }
