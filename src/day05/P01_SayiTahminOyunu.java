@@ -2,7 +2,7 @@ package day05;
 
 import java.util.Scanner;
 
-public class P03_SayiTahminOyunu {
+public class P01_SayiTahminOyunu {
     public static void main(String[] args) {
         /*
     Sisteme bir sayi tanimlayip, kullanicidan sayi isteyerek
