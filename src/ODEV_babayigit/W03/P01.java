@@ -1,4 +1,4 @@
-package ODEV_babayigit;
+package ODEV_babayigit.W03;
 
 import java.util.Scanner;
 

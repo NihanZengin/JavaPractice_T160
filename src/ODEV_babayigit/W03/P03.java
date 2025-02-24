@@ -1,4 +1,4 @@
-package ODEV_babayigit;
+package ODEV_babayigit.W03;
 
 public class P03 {
     public static void main(String[] args) {
