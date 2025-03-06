@@ -117,6 +117,53 @@ public class H8 {
         // Kaydedilen yaşları ekrana yazdır
         System.out.println(Arrays.toString(hastaYaslar));
 
+        //yazdirKullanimSayisi(hastaYaslar,12);
+
+
+        // arr = arrayElemanEkle(arr,8);
+        //        System.out.println("arr'nin yeni hali : " + Arrays.toString(arr));
+
+
+
+        //4/b- Hastalardan belirtilen yasta kac hasta oldugunu bulmak uzere method olusturun.
+
+
+        /**
+        public static void yazdirKullanimSayisi(int[] arr, int arananEleman) {
+
+
+        int sayac = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+
+            if (arr[i] == arananEleman) {
+                sayac++;
+            }
+
+        }
+
+
+        if (sayac == 0) {
+            System.out.println("Aradaginiz " + istenenEleman + " sayisi array'de kullanilmamis");
+        } else {
+            System.out.println("Aradaginiz " + istenenEleman + " sayisi array'de " + sayac + " adet kullanilmis");
+        }
+
+    }
+         */
+
+        //4/b Sonradan hasta yaslari arrayine yeni hasta yaslari eklemek icin bir method olusturun
+
+        /*
+            public static int[] arrayElemanEkle(int[] arr, int eklenecekSayi){
+        int[] yeniArr= Arrays.copyOf(arr, arr.length+1);
+        yeniArr[yeniArr.length-1]=eklenecekSayi;
+        arr=yeniArr;
+        return arr;
+    }
+         */
+
+
         /* 5. )
         //loop kullanarak isimListesi1 in' sonuna isimListesi2 i ekleyerek bir array olusturabilir misiniz?
          */
