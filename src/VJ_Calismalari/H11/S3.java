@@ -2,7 +2,7 @@ package VJ_Calismalari.H11;
 
 public class S3 {
     //soru 3
-    Kullanıcıdan  asal sayı girmesini isteyin
+    //Kullanıcıdan  asal sayı girmesini isteyin
     // bir method olusturun saynın asal olup olmadıgını sorgulasın
     // bir oyun duzenegi kurun sayi asal ise "Tebrikler bildiniz yeni asal sayi girer misiniz" yazdırsın
     // Yanlış girer ise "sayi asal değildir" 3 "hakkınız var tekrar deneyiniz" yazdırsin
